@@ -1,0 +1,140 @@
+body{
+    background-color:  #d9d9d9;
+}
+/* this part is the header */
+header {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid gray;
+    padding: 0;
+    margin:0;
+    
+}
+.divheader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    
+}
+h1{
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0;
+    height: 40px;
+    padding: 20px 10px;
+}
+        
+nav {
+    float: right;
+    margin: 30px 10px 0 0;
+    color: gray;
+    text-decoration: underline;
+}
+nav a{
+    padding: 0 10px;
+
+}
+nav a:hover {
+    color: white;
+    background-color: #4aaaa5;
+    margin: 30px 0;
+}
+/* This part is for the index.html */
+/* this is the Main content part */
+.bioContainer{
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    }
+
+.picture{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    float: left;
+}
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0 0 20px;
+}
+p{
+    color: #777777;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+}
+/* This is the portfolio part*/
+.portfolio{
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    overflow: auto;
+}
+h3{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0 0 20px;
+}
+pics a{
+    
+}
+
+
+.picture1{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    float: left;
+}
+.picture2{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    float: left;
+}
+.picture3{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    clear: left;
+}
+.picture4{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    float: left;
+}
+.picture5{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    clear: left;
+}
+
+
+
+
+
+
+
+
+
+
+/* this part is the footer */
+footer{
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    text-align: center;
+    padding: 30px 0 5px;
+    border-top: 6px solid #4aaaa5;
+    
+}
