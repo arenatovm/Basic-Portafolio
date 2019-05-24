@@ -145,9 +145,51 @@ h3{
     position: absolute;
 }
 
+/* this is the contact part */
+.contactContainer{
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    overflow: auto;
+    min-height: 100vh;
+}
+h4{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0 0 20px;
 
+}
+.t1{
+    float: left;
+    margin-left: 10px;
+    
+}
+#fname{
+    width: 930px;
+}
 
-
+.t2{
+    clear: left;
+    margin-left: 10px;
+}
+#lname{
+    width: 930px;
+}
+.t3{
+    clear: left;
+    margin-left: 10px;
+}
+#subject{
+    width: 930px;
+}
+.button1{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 
 

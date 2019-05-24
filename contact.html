@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -18,8 +20,31 @@
             </nav>
         </div>
     </header>
+    <div class="contactContainer">
+        <h4>Contact</h4>
+        <hr>
 
-    
+        <form action="action_page.php">
+            <div class="t1">
+                <label for="fname">First Name<br></label>
+
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            <div class="t2">
+                <label for="lname">Last Name<br></label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+            <div class="t3">
+                <label for="subject">Subject<br></label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <div class="button1">
+                    <input type="submit" value="Submit">
+                </div>
+
+            </div>
+        </form>
+    </div>
+
 
 
 
@@ -29,4 +54,5 @@
 
     </footer>
 </body>
+
 </html>
